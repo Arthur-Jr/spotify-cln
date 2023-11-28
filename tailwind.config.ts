@@ -9,8 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundColor: {
-        'main-bg-color': 'var(--main-background-color)',
-        'second-bg-color': 'var(--second-background-color)'
+        'main-color': 'var(--main-background-color)',
+        'second-color': 'var(--second-background-color)',
+      },
+      colors: {
+        'main-color': 'var(--text-color)',
+        'selected-color': 'var(--selected-text-color)'
       }
     },
   },

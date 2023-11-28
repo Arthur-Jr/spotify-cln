@@ -4,9 +4,43 @@
 
 :root {
   --main-background-color: #000000;
-  --second-background-color: #191414;
+  --second-background-color: rgb(39 39 42 / 0.4);
+  --text-color: rgb(161 161 170 / 1);
+  --selected-text-color: #FFFFFF;
+  --main-green: #1DB954
 }
 
 body {
-  background: var(--main-background-color)
+  background: var(--main-background-color);
+}
+
+.playlist-section {
+  scrollbar-gutter: stable;
+  visibility: hidden;
+  transition: visibility 0s 1.5s;
+}
+
+.playlist-section:hover, .playlist-section:focus {
+  visibility: visible;
+  transition: visibility 0s 0s;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
 }
