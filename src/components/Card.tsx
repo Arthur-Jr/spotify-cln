@@ -10,7 +10,7 @@ export default function Card({ text, cardTilte }: props) {
   return (
     <Link
       href="#"
-      className="group flex flex-col items-center p-4 pb-1 h-64 rounded-md bg-zinc-700/20 hover:bg-zinc-700/40 text-selected-color"
+      className="group flex flex-col items-center p-4 pb-1 h-64 w-44 rounded-md bg-zinc-700/20 hover:bg-zinc-700/40 text-selected-color"
     >
       <div
         className="flex w-[145px] h-[145px] rounded-md shadow-lg bg-[url('../../public/album-cover-2.jpg')] bg-cover shadow-black/70"
