@@ -1,4 +1,4 @@
-import { Menu, Search } from 'lucide-react';
+import { List, Search } from 'lucide-react';
 import Image from 'next/image';
 import albumCover from '../../../public/album-cover.png';
 
@@ -14,7 +14,7 @@ export default function Playlist() {
 
         <button type="button" className="flex gap-1 items-center text-sm text-zinc-400 hover:scale-105 hover:text-selected-color">
           Recents
-          <Menu width={19} />
+          <List width={19} />
         </button>
       </div>
 
