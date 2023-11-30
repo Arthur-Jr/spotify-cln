@@ -4,7 +4,7 @@ import PlaylistSection from './PlaylistSection';
 
 export default function Aside() {
   return (
-    <aside className="p-2 w-[437px] text-main-color">
+    <aside className="p-2 min-w-[340px] text-main-color">
       <section className="flex flex-col gap-6 bg-second-color py-5 pl-5 rounded-lg w-full h-28">
         <Link href="#" className="flex w-full gap-4 text-selected-color font-semibold">
           <HomeIcon />

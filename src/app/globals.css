@@ -14,13 +14,13 @@ body {
   background: var(--main-background-color);
 }
 
-.playlist-section {
+.playlist-section, .main-content {
   scrollbar-gutter: stable;
   visibility: hidden;
   transition: visibility 0s 1.5s;
 }
 
-.playlist-section:hover, .playlist-section:focus {
+.playlist-section:hover, .playlist-section:focus, .main-content:hover, .main-content:focus {
   visibility: visible;
   transition: visibility 0s 0s;
 }
