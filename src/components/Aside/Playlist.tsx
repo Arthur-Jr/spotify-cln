@@ -6,7 +6,7 @@ export default function Playlist() {
   const playlists = [1, 2, 3, 4, 5, 6, 7];
 
   return (
-    <section className="flex flex-col px-2 pb-2 overflow-y-auto playlist-section">
+    <section className="flex flex-col px-2 overflow-y-auto playlist-section h-full">
       <div className="flex justify-between visible px-1 mb-2">
         <button type="button" className="rounded-full p-[0.35rem] hover:bg-zinc-800 hover:text-selected-color">
           <Search width={19} />
