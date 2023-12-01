@@ -4,7 +4,7 @@ import Playlist from './Playlist';
 
 export default function PlaylistSection() {
   return (
-    <section className="flex flex-col w-full mt-2 rounded-lg pt-3 h-[455px] bg-second-color">
+    <section className="flex flex-col w-full h-full mt-2 overflow-hidden rounded-lg pt-3 bg-second-color">
       <div className="flex items-center justify-between w-full pl-5 pr-5">
         <Link href="#" className="flex gap-2 font-semibold hover:text-selected-color">
           <LibraryBig />
