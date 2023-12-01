@@ -12,7 +12,7 @@ export default function RecentlyPlayed() {
         <Link href="#" className="ml-auto text-sm font-bold text-main-color hover:underline underline-offset-1">Show all</Link>
       </div>
 
-      <div className="grid grid-cols-3 min-[1084px]:grid-cols-4 xl:grid-cols-5 mt-5 gap-5 xl:w-[950px]">
+      <div className="grid grid-cols-3 min-[1084px]:grid-cols-4 xl:grid-cols-5 mt-5 gap-5 xl:w-[960px]">
         { cards.map((num) => (
           <Card key={num} cardTilte="THE BOOK 3" text="Yoasobi" />
         )) }
