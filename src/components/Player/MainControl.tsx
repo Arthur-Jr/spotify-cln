@@ -13,9 +13,9 @@ export default function MainControl() {
       </div>
 
       <div className="flex items-center gap-2">
-        <span className="text-xs text-main-color">0:40</span>
+        <span className="text-xs text-main-color cursor-default">0:40</span>
         <ControlLine />
-        <span className="text-xs text-main-color">2:40</span>
+        <span className="text-xs text-main-color cursor-default">2:40</span>
       </div>
     </section>
   );
