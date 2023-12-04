@@ -12,6 +12,7 @@ Clone do Spotify 2023 versão web, o projeto focado em html e CSS, foi desenvolv
 
 Front-end:
   - Next.js
+  - Typescript
   - HTML
   - Tailwind
   - Responsive Design
